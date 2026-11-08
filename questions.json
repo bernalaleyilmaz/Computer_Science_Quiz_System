@@ -1,0 +1,1502 @@
+[
+  {
+    "question_id": 1,
+    "topic": "AI",
+    "question_text": "Which learning approach uses examples paired with target labels?",
+    "option_a": "Unsupervised learning",
+    "option_b": "Random guessing",
+    "option_c": "Supervised learning",
+    "option_d": "File compression",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 2,
+    "topic": "AI",
+    "question_text": "Which learning approach searches for patterns without target labels?",
+    "option_a": "Supervised classification",
+    "option_b": "Manual labeling",
+    "option_c": "Unsupervised learning",
+    "option_d": "Password hashing",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 3,
+    "topic": "AI",
+    "question_text": "In reinforcement learning, what feedback guides an agent's behavior?",
+    "option_a": "Database column names",
+    "option_b": "Rewards",
+    "option_c": "File extensions",
+    "option_d": "CSS selectors",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 4,
+    "topic": "AI",
+    "question_text": "Which task predicts a continuous numeric value?",
+    "option_a": "Classification",
+    "option_b": "Tokenization",
+    "option_c": "Regression",
+    "option_d": "Clustering only",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 5,
+    "topic": "AI",
+    "question_text": "Which task assigns an input to a predefined category?",
+    "option_a": "Regression",
+    "option_b": "Compression",
+    "option_c": "Classification",
+    "option_d": "Sorting files by size",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 6,
+    "topic": "AI",
+    "question_text": "What is the main purpose of clustering?",
+    "option_a": "Assigning manually defined labels to every example",
+    "option_b": "Encrypting a training set",
+    "option_c": "Generating primary keys",
+    "option_d": "Grouping similar observations",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 7,
+    "topic": "AI",
+    "question_text": "What does overfitting mean?",
+    "option_a": "Learning training-specific patterns that generalize poorly",
+    "option_b": "Performing equally well on all future data",
+    "option_c": "Using no training data",
+    "option_d": "Always using too few parameters",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 8,
+    "topic": "AI",
+    "question_text": "What does underfitting usually indicate?",
+    "option_a": "The model memorizes every training example perfectly",
+    "option_b": "The test set is too accurate",
+    "option_c": "The model has not captured important patterns",
+    "option_d": "The labels are encrypted",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 9,
+    "topic": "AI",
+    "question_text": "What is a training set primarily used for?",
+    "option_a": "Reporting the final unbiased evaluation only",
+    "option_b": "Storing application passwords",
+    "option_c": "Fitting model parameters",
+    "option_d": "Replacing all validation data",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 10,
+    "topic": "AI",
+    "question_text": "What is a validation set primarily used for?",
+    "option_a": "Serving as the final untouched test set",
+    "option_b": "Selecting models and tuning hyperparameters",
+    "option_c": "Replacing the training algorithm",
+    "option_d": "Storing database backups",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 11,
+    "topic": "AI",
+    "question_text": "What is a held-out test set primarily used for?",
+    "option_a": "Evaluating the selected model on unseen examples",
+    "option_b": "Repeatedly choosing hyperparameters",
+    "option_c": "Directly updating model weights every training step",
+    "option_d": "Duplicating training examples",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 12,
+    "topic": "AI",
+    "question_text": "What is data leakage in model evaluation?",
+    "option_a": "Storing a dataset in two folders",
+    "option_b": "Reducing the number of features",
+    "option_c": "Compressing model files",
+    "option_d": "Using information that would be unavailable at prediction time",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 13,
+    "topic": "AI",
+    "question_text": "What is a feature in a machine learning dataset?",
+    "option_a": "The final application installer",
+    "option_b": "A database administrator",
+    "option_c": "A network port",
+    "option_d": "An input attribute used by a model",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 14,
+    "topic": "AI",
+    "question_text": "What is a label in supervised learning?",
+    "option_a": "The name of the training script",
+    "option_b": "The size of the model file",
+    "option_c": "The number of CPU cores",
+    "option_d": "The target value associated with an example",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 15,
+    "topic": "AI",
+    "question_text": "What happens during model inference?",
+    "option_a": "All model weights must be randomly reset",
+    "option_b": "The entire dataset is manually relabeled",
+    "option_c": "A trained model produces outputs for inputs",
+    "option_d": "The optimizer must always retrain the model",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 16,
+    "topic": "AI",
+    "question_text": "What is a loss function used for during training?",
+    "option_a": "Choosing a file extension",
+    "option_b": "Assigning database permissions",
+    "option_c": "Measuring monitor brightness",
+    "option_d": "Quantifying prediction error for optimization",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 17,
+    "topic": "AI",
+    "question_text": "What is the basic goal of gradient descent?",
+    "option_a": "Sorting labels alphabetically",
+    "option_b": "Adjusting parameters to reduce an objective function",
+    "option_c": "Increasing every model weight equally",
+    "option_d": "Removing all input features",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 18,
+    "topic": "AI",
+    "question_text": "What does the learning rate control in gradient-based training?",
+    "option_a": "The number of output categories only",
+    "option_b": "The disk filename",
+    "option_c": "The scale of parameter update steps",
+    "option_d": "The HTTP response format",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 19,
+    "topic": "AI",
+    "question_text": "What is one epoch of training?",
+    "option_a": "One individual prediction",
+    "option_b": "One complete pass through the training dataset",
+    "option_c": "One database connection",
+    "option_d": "One feature value",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 20,
+    "topic": "AI",
+    "question_text": "What does batch size specify?",
+    "option_a": "The number of examples processed together in a training step",
+    "option_b": "The number of model files on disk",
+    "option_c": "The total number of possible labels",
+    "option_d": "The maximum length of a database name",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 21,
+    "topic": "AI",
+    "question_text": "What is regularization intended to help reduce?",
+    "option_a": "The need for input data entirely",
+    "option_b": "Overfitting",
+    "option_c": "All prediction errors with certainty",
+    "option_d": "The number of network cables",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 22,
+    "topic": "AI",
+    "question_text": "What does dropout typically do during neural network training?",
+    "option_a": "Deletes all incorrect training examples",
+    "option_b": "Randomly disables some activations",
+    "option_c": "Converts every weight to an integer permanently",
+    "option_d": "Removes the test set",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 23,
+    "topic": "AI",
+    "question_text": "Why are nonlinear activation functions used in neural networks?",
+    "option_a": "They guarantee perfect predictions",
+    "option_b": "They eliminate the need for training",
+    "option_c": "They convert every input into a database row",
+    "option_d": "They allow the network to model nonlinear relationships",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 24,
+    "topic": "AI",
+    "question_text": "What is backpropagation used to compute?",
+    "option_a": "HTTP request headers",
+    "option_b": "Gradients of the loss with respect to model parameters",
+    "option_c": "The number of files in a folder",
+    "option_d": "Database table names",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 25,
+    "topic": "AI",
+    "question_text": "What is a common advantage of convolutional layers for images?",
+    "option_a": "They require every image to be a text document",
+    "option_b": "They store each pixel as an SQL table",
+    "option_c": "They prevent all overfitting automatically",
+    "option_d": "They use local patterns with shared weights",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 26,
+    "topic": "AI",
+    "question_text": "What is self-attention designed to model?",
+    "option_a": "Relationships among elements in the same sequence",
+    "option_b": "Only the final character of a filename",
+    "option_c": "Only database foreign keys",
+    "option_d": "The physical position of a CPU",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 27,
+    "topic": "AI",
+    "question_text": "What is tokenization in natural language processing?",
+    "option_a": "Encrypting the entire hard drive",
+    "option_b": "Splitting text into units used by a model",
+    "option_c": "Sorting images by resolution",
+    "option_d": "Creating database indexes",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 28,
+    "topic": "AI",
+    "question_text": "What is an embedding?",
+    "option_a": "A mandatory SQL trigger",
+    "option_b": "A network cable type",
+    "option_c": "A numeric vector representation of an item",
+    "option_d": "A compressed screen recording",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 29,
+    "topic": "AI",
+    "question_text": "What is the purpose of positional information in a Transformer?",
+    "option_a": "Representing where tokens occur in a sequence",
+    "option_b": "Assigning IP addresses to tokens",
+    "option_c": "Setting database access permissions",
+    "option_d": "Replacing all attention calculations",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 30,
+    "topic": "AI",
+    "question_text": "What is a hallucination in a generative language model?",
+    "option_a": "A guaranteed correct citation",
+    "option_b": "A hardware cooling method",
+    "option_c": "A database transaction rollback",
+    "option_d": "An unsupported or incorrect output presented as plausible",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 31,
+    "topic": "AI",
+    "question_text": "What does retrieval-augmented generation add to a generation workflow?",
+    "option_a": "Relevant retrieved information as context",
+    "option_b": "A guarantee that every answer is correct",
+    "option_c": "A replacement for all storage systems",
+    "option_d": "Automatic deletion of source documents",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 32,
+    "topic": "AI",
+    "question_text": "What does fine-tuning normally involve?",
+    "option_a": "Changing only the monitor resolution",
+    "option_b": "Renaming a model without training",
+    "option_c": "Further training a pretrained model on additional data",
+    "option_d": "Deleting all learned parameters",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 33,
+    "topic": "AI",
+    "question_text": "What is transfer learning?",
+    "option_a": "Copying a database without checking its schema",
+    "option_b": "Sending labels over an unencrypted connection",
+    "option_c": "Moving files between folders only",
+    "option_d": "Reusing knowledge from a previously trained model",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 34,
+    "topic": "AI",
+    "question_text": "What does a confusion matrix summarize?",
+    "option_a": "CPU temperature over time",
+    "option_b": "File sizes and extensions",
+    "option_c": "Database permissions by user",
+    "option_d": "Counts of predicted and actual classes",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 35,
+    "topic": "AI",
+    "question_text": "For a binary classifier, what is precision?",
+    "option_a": "TP divided by TP plus FP",
+    "option_b": "TP divided by TP plus FN",
+    "option_c": "TN divided by all examples",
+    "option_d": "FP divided by FN",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 36,
+    "topic": "AI",
+    "question_text": "For a binary classifier, what is recall?",
+    "option_a": "TP divided by TP plus FP",
+    "option_b": "FP divided by all examples",
+    "option_c": "TP divided by TP plus FN",
+    "option_d": "TN divided by FP",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 37,
+    "topic": "AI",
+    "question_text": "What is the F1 score?",
+    "option_a": "The harmonic mean of precision and recall",
+    "option_b": "The arithmetic sum of all model weights",
+    "option_c": "The maximum training accuracy ever observed",
+    "option_d": "The difference between precision and recall",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 38,
+    "topic": "AI",
+    "question_text": "What is a false positive in disease screening?",
+    "option_a": "Predicting no disease when the person has it",
+    "option_b": "Correctly identifying a person with disease",
+    "option_c": "Correctly identifying a person without disease",
+    "option_d": "Predicting disease when the person does not have it",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 39,
+    "topic": "AI",
+    "question_text": "What is a false negative in spam detection?",
+    "option_a": "Classifying a legitimate message as spam",
+    "option_b": "Classifying a spam message as not spam",
+    "option_c": "Correctly identifying spam",
+    "option_d": "Correctly identifying legitimate email",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 40,
+    "topic": "AI",
+    "question_text": "Why can accuracy be misleading on a highly imbalanced dataset?",
+    "option_a": "Accuracy always exceeds 100 percent",
+    "option_b": "Accuracy measures only training speed",
+    "option_c": "A majority-class predictor can score highly while missing the minority class",
+    "option_d": "Accuracy is undefined for all classification tasks",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 41,
+    "topic": "AI",
+    "question_text": "What does k-fold cross-validation do?",
+    "option_a": "Trains only on the largest single example",
+    "option_b": "Evaluates exclusively on duplicated training rows",
+    "option_c": "Removes all labels before every prediction",
+    "option_d": "Uses different folds for training and validation across repeated fits",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 42,
+    "topic": "AI",
+    "question_text": "In a time-series forecasting evaluation, how should the split usually respect time?",
+    "option_a": "Always train on future observations to predict the past",
+    "option_b": "Train on earlier observations and evaluate on later ones",
+    "option_c": "Shuffle timestamps into arbitrary target labels",
+    "option_d": "Use the same rows for training and testing",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 43,
+    "topic": "AI",
+    "question_text": "Which parameters should be used to scale validation and test features?",
+    "option_a": "Parameters fitted on the full dataset including test data",
+    "option_b": "Separate target labels from the test set",
+    "option_c": "Scaling parameters fitted on the training set",
+    "option_d": "Random parameters chosen for every prediction",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 44,
+    "topic": "AI",
+    "question_text": "What does standardization commonly do to a numeric feature?",
+    "option_a": "Replaces every value with its row number",
+    "option_b": "Deletes negative values",
+    "option_c": "Converts the feature into an HTTP header",
+    "option_d": "Subtracts its training mean and divides by its training standard deviation",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 45,
+    "topic": "AI",
+    "question_text": "What does one-hot encoding represent?",
+    "option_a": "A number using its square root only",
+    "option_b": "A paragraph using its file size",
+    "option_c": "A category using indicator values in separate positions",
+    "option_d": "An image using its filename only",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 46,
+    "topic": "AI",
+    "question_text": "What is the main idea of principal component analysis?",
+    "option_a": "Assigning a unique password to every sample",
+    "option_b": "Finding orthogonal directions that capture high variance",
+    "option_c": "Predicting labels without input features",
+    "option_d": "Increasing dimensionality by copying every column",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 47,
+    "topic": "AI",
+    "question_text": "How does k-nearest neighbors commonly classify a new example?",
+    "option_a": "Using only the first label in the dataset",
+    "option_b": "Generating a random SQL query",
+    "option_c": "Always selecting the rarest class",
+    "option_d": "Using the labels of nearby training examples",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 48,
+    "topic": "AI",
+    "question_text": "What is a decision tree built from?",
+    "option_a": "A collection of unrelated HTTP headers",
+    "option_b": "A sequence of feature-based decision rules",
+    "option_c": "Only a single matrix multiplication with no decisions",
+    "option_d": "A list of file permissions",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 49,
+    "topic": "AI",
+    "question_text": "What is a random forest?",
+    "option_a": "An ensemble of decision trees",
+    "option_b": "A single manually written SQL query",
+    "option_c": "A database of randomly named users",
+    "option_d": "A neural network with no parameters",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 50,
+    "topic": "AI",
+    "question_text": "What is concept drift?",
+    "option_a": "A change in a source file's name",
+    "option_b": "A decrease in monitor resolution",
+    "option_c": "A database table being sorted differently",
+    "option_d": "A change over time in the relationship between inputs and targets",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 51,
+    "topic": "Database",
+    "question_text": "What is the primary purpose of a database management system?",
+    "option_a": "Rendering CSS animations only",
+    "option_b": "Replacing the operating system",
+    "option_c": "Translating every programming language",
+    "option_d": "Managing stored data and access to it",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 52,
+    "topic": "Database",
+    "question_text": "In a relational table, what does a row typically represent?",
+    "option_a": "One database server",
+    "option_b": "One record",
+    "option_c": "One SQL keyword",
+    "option_d": "One index definition only",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 53,
+    "topic": "Database",
+    "question_text": "In a relational table, what does a column typically represent?",
+    "option_a": "A complete database backup",
+    "option_b": "A network connection",
+    "option_c": "A collection of unrelated tables",
+    "option_d": "An attribute of records",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 54,
+    "topic": "Database",
+    "question_text": "What is the purpose of a primary key?",
+    "option_a": "Uniquely identifying a row",
+    "option_b": "Encrypting every column",
+    "option_c": "Sorting every query result automatically",
+    "option_d": "Storing only dates",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 55,
+    "topic": "Database",
+    "question_text": "What is a foreign key intended to enforce?",
+    "option_a": "Alphabetical ordering of all text",
+    "option_b": "A fixed database file size",
+    "option_c": "A valid relationship to a referenced key",
+    "option_d": "Automatic compression of images",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 56,
+    "topic": "Database",
+    "question_text": "What is a composite key?",
+    "option_a": "A password containing symbols",
+    "option_b": "A key made from more than one column",
+    "option_c": "A key that exists only in application memory",
+    "option_d": "A column that always stores JSON",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 57,
+    "topic": "Database",
+    "question_text": "What does a UNIQUE constraint prevent?",
+    "option_a": "Duplicate key values under its comparison rules",
+    "option_b": "All NULL values in every database system",
+    "option_c": "All table updates",
+    "option_d": "All foreign key relationships",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 58,
+    "topic": "Database",
+    "question_text": "What does NOT NULL require?",
+    "option_a": "A text value must contain at least one letter",
+    "option_b": "A number must be positive",
+    "option_c": "A column value must not be NULL",
+    "option_d": "A username must be unique",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 59,
+    "topic": "Database",
+    "question_text": "What is a CHECK constraint used for?",
+    "option_a": "Backing up the entire database",
+    "option_b": "Opening an HTTP connection",
+    "option_c": "Restricting values using a condition",
+    "option_d": "Renaming every table",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 60,
+    "topic": "Database",
+    "question_text": "What does a DEFAULT clause provide?",
+    "option_a": "A value when the column is omitted from an insert",
+    "option_b": "A replacement for every invalid value",
+    "option_c": "An automatic value on every update",
+    "option_d": "A guarantee that the column is unique",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 61,
+    "topic": "Database",
+    "question_text": "What does NULL usually represent in SQL?",
+    "option_a": "The integer zero",
+    "option_b": "A missing or unknown value",
+    "option_c": "An empty string in every SQL system",
+    "option_d": "The word false",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 62,
+    "topic": "Database",
+    "question_text": "Which predicate correctly tests for a NULL value?",
+    "option_a": "= NULL",
+    "option_b": "== 'NULL'",
+    "option_c": "IS NULL",
+    "option_d": "IN ('empty')",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 63,
+    "topic": "Database",
+    "question_text": "Which SQL command retrieves rows?",
+    "option_a": "INSERT",
+    "option_b": "SELECT",
+    "option_c": "DELETE",
+    "option_d": "ALTER TABLE",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 64,
+    "topic": "Database",
+    "question_text": "Which SQL command adds new rows?",
+    "option_a": "SELECT",
+    "option_b": "INSERT",
+    "option_c": "DROP TABLE",
+    "option_d": "CREATE INDEX",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 65,
+    "topic": "Database",
+    "question_text": "Which SQL command changes values in existing rows?",
+    "option_a": "CREATE TABLE",
+    "option_b": "UPDATE",
+    "option_c": "SELECT",
+    "option_d": "COMMIT",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 66,
+    "topic": "Database",
+    "question_text": "Which SQL command removes selected rows while keeping the table?",
+    "option_a": "DROP TABLE",
+    "option_b": "CREATE VIEW",
+    "option_c": "ALTER INDEX",
+    "option_d": "DELETE",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 67,
+    "topic": "Database",
+    "question_text": "Which clause filters individual rows before grouping?",
+    "option_a": "ORDER BY",
+    "option_b": "WHERE",
+    "option_c": "GROUP BY",
+    "option_d": "LIMIT",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 68,
+    "topic": "Database",
+    "question_text": "Which clause explicitly controls result ordering?",
+    "option_a": "WHERE",
+    "option_b": "ORDER BY",
+    "option_c": "VALUES",
+    "option_d": "REFERENCES",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 69,
+    "topic": "Database",
+    "question_text": "What does an INNER JOIN return?",
+    "option_a": "Every left row regardless of matches",
+    "option_b": "Only rows missing from both tables",
+    "option_c": "All possible rows without applying a condition",
+    "option_d": "Rows with matching join conditions on both sides",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 70,
+    "topic": "Database",
+    "question_text": "What does a LEFT JOIN preserve?",
+    "option_a": "Only unmatched right-side rows",
+    "option_b": "Only rows where both sides contain NULL",
+    "option_c": "Every row from the left side even without a right-side match",
+    "option_d": "Every table in the database",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 71,
+    "topic": "Database",
+    "question_text": "What is GROUP BY used for?",
+    "option_a": "Sorting columns inside a table definition",
+    "option_b": "Combining rows into groups for aggregate calculations",
+    "option_c": "Encrypting duplicate rows",
+    "option_d": "Creating user accounts",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 72,
+    "topic": "Database",
+    "question_text": "Which clause filters grouped results?",
+    "option_a": "VALUES",
+    "option_b": "HAVING",
+    "option_c": "REFERENCES",
+    "option_d": "SET",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 73,
+    "topic": "Database",
+    "question_text": "What does COUNT(*) count?",
+    "option_a": "Rows in the query result or group",
+    "option_b": "Only non-NULL values in a chosen column",
+    "option_c": "Only distinct usernames automatically",
+    "option_d": "The number of tables in every database",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 74,
+    "topic": "Database",
+    "question_text": "What does COUNT(column_name) count?",
+    "option_a": "Non-NULL values of that column",
+    "option_b": "All rows regardless of that column's value",
+    "option_c": "Only zero values",
+    "option_d": "Only duplicate values",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 75,
+    "topic": "Database",
+    "question_text": "What does SELECT DISTINCT remove from its result?",
+    "option_a": "Duplicate combinations of the selected expressions",
+    "option_b": "All rows containing numbers",
+    "option_c": "All columns without indexes",
+    "option_d": "All foreign key constraints",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 76,
+    "topic": "Database",
+    "question_text": "What is a database transaction?",
+    "option_a": "A group of operations treated as one unit of work",
+    "option_b": "A single column name",
+    "option_c": "An HTML request form",
+    "option_d": "A compressed database image",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 77,
+    "topic": "Database",
+    "question_text": "Which ACID property describes all-or-nothing execution?",
+    "option_a": "Atomicity",
+    "option_b": "Consistency",
+    "option_c": "Isolation",
+    "option_d": "Durability",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 78,
+    "topic": "Database",
+    "question_text": "Which ACID property concerns preserving defined validity rules?",
+    "option_a": "Atomicity",
+    "option_b": "Isolation",
+    "option_c": "Durability",
+    "option_d": "Consistency",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 79,
+    "topic": "Database",
+    "question_text": "Which ACID property concerns interference between concurrent transactions?",
+    "option_a": "Atomicity",
+    "option_b": "Consistency",
+    "option_c": "Durability",
+    "option_d": "Isolation",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 80,
+    "topic": "Database",
+    "question_text": "Which ACID property concerns committed changes surviving failures within system guarantees?",
+    "option_a": "Atomicity",
+    "option_b": "Consistency",
+    "option_c": "Durability",
+    "option_d": "Isolation",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 81,
+    "topic": "Database",
+    "question_text": "What does COMMIT do?",
+    "option_a": "Undoes all committed history",
+    "option_b": "Deletes every database index",
+    "option_c": "Converts tables into CSV automatically",
+    "option_d": "Finalizes the changes in a transaction",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 82,
+    "topic": "Database",
+    "question_text": "What does ROLLBACK do for an uncommitted transaction?",
+    "option_a": "Permanently saves its changes",
+    "option_b": "Renames its tables",
+    "option_c": "Undoes its changes",
+    "option_d": "Disables all future transactions",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 83,
+    "topic": "Database",
+    "question_text": "What is the main purpose of a database index?",
+    "option_a": "Guaranteeing that every query becomes faster",
+    "option_b": "Replacing the need for all constraints",
+    "option_c": "Storing application source code",
+    "option_d": "Supporting faster access for suitable queries",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 84,
+    "topic": "Database",
+    "question_text": "What is a common cost of adding an index?",
+    "option_a": "Automatic loss of all duplicate data",
+    "option_b": "Removal of transaction support",
+    "option_c": "Extra storage and maintenance during writes",
+    "option_d": "Mandatory use of a remote server",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 85,
+    "topic": "Database",
+    "question_text": "For an index on (session_id, question_id), which filter matches its leading column?",
+    "option_a": "WHERE username = 'learner_01'",
+    "option_b": "WHERE session_id = 1",
+    "option_c": "WHERE title = 'Quiz'",
+    "option_d": "WHERE selected_option = 'A'",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 86,
+    "topic": "Database",
+    "question_text": "What is a main goal of normalization?",
+    "option_a": "Duplicating every value for speed",
+    "option_b": "Reducing redundancy and update anomalies",
+    "option_c": "Eliminating all foreign keys",
+    "option_d": "Storing all entities in one text field",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 87,
+    "topic": "Database",
+    "question_text": "What is an update anomaly?",
+    "option_a": "A query returning zero rows correctly",
+    "option_b": "Repeated copies of a fact becoming inconsistent after changes",
+    "option_c": "A successful transaction commit",
+    "option_d": "A valid primary key lookup",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 88,
+    "topic": "Database",
+    "question_text": "How is a many-to-many relationship commonly represented?",
+    "option_a": "By storing all IDs in one comma-separated field",
+    "option_b": "With a junction table referencing both entities",
+    "option_c": "By deleting the primary keys",
+    "option_d": "By using a single Boolean column",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 89,
+    "topic": "Database",
+    "question_text": "What happens when a referenced parent row is deleted with ON DELETE CASCADE?",
+    "option_a": "Every table in the database is deleted",
+    "option_b": "Only the parent table's indexes are deleted",
+    "option_c": "Related child rows are deleted",
+    "option_d": "The deletion is always rejected",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 90,
+    "topic": "Database",
+    "question_text": "What is a database trigger?",
+    "option_a": "Stored logic executed automatically for a defined database event",
+    "option_b": "A manual screenshot of query results",
+    "option_c": "A required network proxy",
+    "option_d": "A file compression setting",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 91,
+    "topic": "Database",
+    "question_text": "What is an ordinary SQL view?",
+    "option_a": "A named query usable like a table in queries",
+    "option_b": "A guaranteed separate stored copy of every result",
+    "option_c": "A replacement for a database file",
+    "option_d": "A mandatory primary key",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 92,
+    "topic": "Database",
+    "question_text": "What is an advantage of parameterized SQL?",
+    "option_a": "Separating data values from SQL command structure",
+    "option_b": "Automatically creating all indexes",
+    "option_c": "Eliminating the need for transactions",
+    "option_d": "Making every query return one row",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 93,
+    "topic": "Database",
+    "question_text": "What does SQL injection exploit?",
+    "option_a": "A correctly bound numeric parameter",
+    "option_b": "A properly enforced foreign key",
+    "option_c": "Untrusted input being interpreted as SQL code",
+    "option_d": "A database opened in read-only mode",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 94,
+    "topic": "Database",
+    "question_text": "How does SQLite commonly store a database?",
+    "option_a": "Only in a mandatory remote cloud service",
+    "option_b": "Only inside an HTML page",
+    "option_c": "Only as individual text files for each row",
+    "option_d": "In a local database file",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 95,
+    "topic": "Database",
+    "question_text": "Which SQLite statement enables foreign key enforcement for a connection?",
+    "option_a": "PRAGMA foreign_keys = ON;",
+    "option_b": "SET DATABASE ONLINE;",
+    "option_c": "ENABLE ALL TABLES;",
+    "option_d": "CREATE FOREIGN_KEYS;",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 96,
+    "topic": "Database",
+    "question_text": "What happens if CREATE TABLE IF NOT EXISTS finds an existing table with that name?",
+    "option_a": "It leaves the existing table unchanged",
+    "option_b": "It automatically adds every newly declared column",
+    "option_c": "It deletes all existing rows",
+    "option_d": "It renames the old table",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 97,
+    "topic": "Database",
+    "question_text": "In a normal SQLite table, what can INTEGER PRIMARY KEY provide when omitted on insert?",
+    "option_a": "An automatically assigned row identifier",
+    "option_b": "An automatically hashed password",
+    "option_c": "A random text UUID by definition",
+    "option_d": "An automatically created foreign key",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 98,
+    "topic": "Database",
+    "question_text": "What does WITHOUT ROWID change in SQLite?",
+    "option_a": "The table cannot have a primary key",
+    "option_b": "The table cannot contain rows",
+    "option_c": "The database becomes read-only",
+    "option_d": "The table uses its declared primary key instead of a separate rowid",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 99,
+    "topic": "Database",
+    "question_text": "What can EXPLAIN QUERY PLAN help inspect in SQLite?",
+    "option_a": "The correct answers in every quiz",
+    "option_b": "The contents of encrypted passwords",
+    "option_c": "The strategy used to access data for a query",
+    "option_d": "The Python interpreter's installation path",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 100,
+    "topic": "Database",
+    "question_text": "What does a foreign key from answers(session_id, question_id) to session_questions enforce?",
+    "option_a": "The answered question belongs to the specified session",
+    "option_b": "The selected answer is necessarily correct",
+    "option_c": "Every user answers every question",
+    "option_d": "Every session has exactly thirty questions",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 101,
+    "topic": "API",
+    "question_text": "What does API stand for?",
+    "option_a": "Automatic Program Installation",
+    "option_b": "Advanced Packet Identifier",
+    "option_c": "Application Password Index",
+    "option_d": "Application Programming Interface",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 102,
+    "topic": "API",
+    "question_text": "What is a primary purpose of an API?",
+    "option_a": "Replacing every database table",
+    "option_b": "Guaranteeing unlimited server capacity",
+    "option_c": "Designing monitor hardware",
+    "option_d": "Defining how software components interact",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 103,
+    "topic": "API",
+    "question_text": "In a typical HTTP exchange, what does the client send first?",
+    "option_a": "A database checkpoint",
+    "option_b": "A request",
+    "option_c": "A server response",
+    "option_d": "An operating system patch",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 104,
+    "topic": "API",
+    "question_text": "What is an API endpoint commonly identified by?",
+    "option_a": "Only the server's RAM size",
+    "option_b": "Only a database username",
+    "option_c": "Only a CSS class name",
+    "option_d": "A URL and an HTTP method",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 105,
+    "topic": "API",
+    "question_text": "Which HTTP method is intended to retrieve a resource representation?",
+    "option_a": "GET",
+    "option_b": "POST",
+    "option_c": "DELETE",
+    "option_d": "PATCH",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 106,
+    "topic": "API",
+    "question_text": "Which HTTP method commonly submits data for processing or creates a subordinate resource?",
+    "option_a": "GET",
+    "option_b": "POST",
+    "option_c": "HEAD",
+    "option_d": "OPTIONS",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 107,
+    "topic": "API",
+    "question_text": "Which HTTP method expresses creating or replacing the state of a target resource?",
+    "option_a": "GET",
+    "option_b": "HEAD",
+    "option_c": "PUT",
+    "option_d": "OPTIONS",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 108,
+    "topic": "API",
+    "question_text": "Which HTTP method is designed to apply partial modifications to a resource?",
+    "option_a": "HEAD",
+    "option_b": "PATCH",
+    "option_c": "GET",
+    "option_d": "OPTIONS",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 109,
+    "topic": "API",
+    "question_text": "Which HTTP method requests removal of the association with a target resource?",
+    "option_a": "GET",
+    "option_b": "HEAD",
+    "option_c": "OPTIONS",
+    "option_d": "DELETE",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 110,
+    "topic": "API",
+    "question_text": "Which HTTP method requests GET-like response headers without response content?",
+    "option_a": "POST",
+    "option_b": "HEAD",
+    "option_c": "PATCH",
+    "option_d": "CONNECT",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 111,
+    "topic": "API",
+    "question_text": "Which HTTP method can describe communication options for a target resource?",
+    "option_a": "OPTIONS",
+    "option_b": "DELETE",
+    "option_c": "PATCH",
+    "option_d": "POST",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 112,
+    "topic": "API",
+    "question_text": "What does an HTTP 200 status generally indicate?",
+    "option_a": "The resource was not found",
+    "option_b": "Authentication is required",
+    "option_c": "The request succeeded",
+    "option_d": "The server encountered an internal error",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 113,
+    "topic": "API",
+    "question_text": "Which HTTP status indicates that a request created one or more resources?",
+    "option_a": "404 Not Found",
+    "option_b": "201 Created",
+    "option_c": "401 Unauthorized",
+    "option_d": "500 Internal Server Error",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 114,
+    "topic": "API",
+    "question_text": "Which HTTP status indicates success with no response content?",
+    "option_a": "400 Bad Request",
+    "option_b": "403 Forbidden",
+    "option_c": "503 Service Unavailable",
+    "option_d": "204 No Content",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 115,
+    "topic": "API",
+    "question_text": "Which HTTP status generally indicates a client-side request problem?",
+    "option_a": "200 OK",
+    "option_b": "400 Bad Request",
+    "option_c": "201 Created",
+    "option_d": "304 Not Modified",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 116,
+    "topic": "API",
+    "question_text": "Which HTTP status indicates missing or invalid authentication credentials?",
+    "option_a": "403 Forbidden",
+    "option_b": "404 Not Found",
+    "option_c": "409 Conflict",
+    "option_d": "401 Unauthorized",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 117,
+    "topic": "API",
+    "question_text": "Which HTTP status indicates that the server refuses to fulfill the request?",
+    "option_a": "201 Created",
+    "option_b": "204 No Content",
+    "option_c": "301 Moved Permanently",
+    "option_d": "403 Forbidden",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 118,
+    "topic": "API",
+    "question_text": "Which HTTP status indicates that the requested resource was not found or is not disclosed?",
+    "option_a": "200 OK",
+    "option_b": "202 Accepted",
+    "option_c": "404 Not Found",
+    "option_d": "304 Not Modified",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 119,
+    "topic": "API",
+    "question_text": "Which HTTP status indicates a conflict with the current resource state?",
+    "option_a": "204 No Content",
+    "option_b": "200 OK",
+    "option_c": "301 Moved Permanently",
+    "option_d": "409 Conflict",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 120,
+    "topic": "API",
+    "question_text": "Which HTTP status commonly signals rate limiting?",
+    "option_a": "201 Created",
+    "option_b": "204 No Content",
+    "option_c": "429 Too Many Requests",
+    "option_d": "404 Not Found",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 121,
+    "topic": "API",
+    "question_text": "Which HTTP status indicates an unexpected server-side condition preventing fulfillment?",
+    "option_a": "500 Internal Server Error",
+    "option_b": "200 OK",
+    "option_c": "400 Bad Request",
+    "option_d": "401 Unauthorized",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 122,
+    "topic": "API",
+    "question_text": "Which HTTP status indicates temporary service unavailability?",
+    "option_a": "201 Created",
+    "option_b": "503 Service Unavailable",
+    "option_c": "204 No Content",
+    "option_d": "304 Not Modified",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 123,
+    "topic": "API",
+    "question_text": "What does the Content-Type header describe?",
+    "option_a": "The client's preferred language only",
+    "option_b": "The server's password",
+    "option_c": "The media type of the associated content",
+    "option_d": "The database's primary key",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 124,
+    "topic": "API",
+    "question_text": "What does the Accept request header express?",
+    "option_a": "The client's database transaction history",
+    "option_b": "Response media types the client can accept",
+    "option_c": "The server's CPU architecture",
+    "option_d": "The resource's creation timestamp only",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 125,
+    "topic": "API",
+    "question_text": "Which header commonly carries a bearer access token?",
+    "option_a": "Content-Length",
+    "option_b": "ETag",
+    "option_c": "Location",
+    "option_d": "Authorization",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 126,
+    "topic": "API",
+    "question_text": "In /users/42, what does 42 commonly represent?",
+    "option_a": "A path parameter identifying a user",
+    "option_b": "An HTTP status code",
+    "option_c": "A mandatory port number",
+    "option_d": "A JSON property name",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 127,
+    "topic": "API",
+    "question_text": "In /questions?topic=AI, what is topic=AI?",
+    "option_a": "A query parameter",
+    "option_b": "A response status",
+    "option_c": "A TLS certificate",
+    "option_d": "A database trigger",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 128,
+    "topic": "API",
+    "question_text": "What does a request body commonly carry?",
+    "option_a": "Data submitted to the server",
+    "option_b": "Only the server's response headers",
+    "option_c": "Only the hostname",
+    "option_d": "The operating system's kernel code",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 129,
+    "topic": "API",
+    "question_text": "In JSON, how are object property names written?",
+    "option_a": "Always without quotes",
+    "option_b": "Only as integers",
+    "option_c": "Inside angle brackets",
+    "option_d": "As strings in double quotes",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 130,
+    "topic": "API",
+    "question_text": "What is the difference between authentication and authorization?",
+    "option_a": "Authentication checks identity; authorization checks permissions",
+    "option_b": "Authentication sorts data; authorization compresses it",
+    "option_c": "Authentication creates tables; authorization deletes indexes",
+    "option_d": "They always mean exactly the same operation",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 131,
+    "topic": "API",
+    "question_text": "Why should secret API keys generally stay out of public frontend code?",
+    "option_a": "Browsers automatically encrypt them from the user",
+    "option_b": "HTML prevents users from reading JavaScript",
+    "option_c": "Users can inspect and extract frontend-delivered secrets",
+    "option_d": "API keys cannot be copied from text",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 132,
+    "topic": "API",
+    "question_text": "What does HTTPS add to HTTP through TLS?",
+    "option_a": "Encryption and integrity protection in transit plus server authentication",
+    "option_b": "Automatic validation of every business rule",
+    "option_c": "Guaranteed protection from all application vulnerabilities",
+    "option_d": "Automatic database normalization",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 133,
+    "topic": "API",
+    "question_text": "What does idempotency mean for an HTTP method?",
+    "option_a": "Repeating the same request has the same intended server effect as sending it once",
+    "option_b": "Every repeated request must return identical bytes",
+    "option_c": "The request cannot fail",
+    "option_d": "The request never reaches the server",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 134,
+    "topic": "API",
+    "question_text": "What does it mean for an HTTP method to be safe?",
+    "option_a": "It requires no authentication",
+    "option_b": "Its defined semantics are essentially read-only",
+    "option_c": "It cannot expose sensitive information",
+    "option_d": "It always uses an encrypted connection",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 135,
+    "topic": "API",
+    "question_text": "What does statelessness mean in a REST-style interaction?",
+    "option_a": "The server cannot store resources in a database",
+    "option_b": "The client cannot use authentication",
+    "option_c": "Each request carries the context needed to understand it without relying on a stored conversational session",
+    "option_d": "All requests must use GET",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 136,
+    "topic": "API",
+    "question_text": "What problem does pagination address?",
+    "option_a": "Encrypting every request body",
+    "option_b": "Eliminating all server-side validation",
+    "option_c": "Returning a large collection in manageable portions",
+    "option_d": "Replacing authentication with page numbers",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 137,
+    "topic": "API",
+    "question_text": "What does an API rate limit restrict?",
+    "option_a": "The amount or frequency of requests over a defined interval",
+    "option_b": "The number of letters in every username",
+    "option_c": "The number of tables in a database",
+    "option_d": "The screen resolution of a client",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 138,
+    "topic": "API",
+    "question_text": "What is exponential backoff in retry logic?",
+    "option_a": "Sending infinitely many immediate retries",
+    "option_b": "Increasing the delay between successive retry attempts",
+    "option_c": "Reducing every timeout to zero",
+    "option_d": "Changing every failed POST into DELETE",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 139,
+    "topic": "API",
+    "question_text": "What does a request timeout limit?",
+    "option_a": "How many tables can exist",
+    "option_b": "How long an operation waits before reporting a timeout",
+    "option_c": "How long a password must be",
+    "option_d": "How many CSS rules can load",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 140,
+    "topic": "API",
+    "question_text": "What should a client do before blindly retrying a failed creation request?",
+    "option_a": "Consider whether the first attempt succeeded and whether deduplication is supported",
+    "option_b": "Assume the first attempt definitely made no changes",
+    "option_c": "Always send the request one thousand times",
+    "option_d": "Delete every existing resource",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 141,
+    "topic": "API",
+    "question_text": "What is a webhook commonly used for?",
+    "option_a": "Preventing all database writes",
+    "option_b": "Storing a user's desktop wallpaper",
+    "option_c": "Sending an HTTP notification when an event occurs",
+    "option_d": "Replacing every outgoing API call with SQL",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 142,
+    "topic": "API",
+    "question_text": "What does CORS primarily govern?",
+    "option_a": "Whether browser scripts may access responses across origins",
+    "option_b": "Whether any possible client can contact the server",
+    "option_c": "Whether the database has foreign keys",
+    "option_d": "Whether HTTPS encrypts the connection",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 143,
+    "topic": "API",
+    "question_text": "What is an HTTP cache intended to do?",
+    "option_a": "Reuse eligible responses to reduce repeated fetching",
+    "option_b": "Permanently store every user's password",
+    "option_c": "Guarantee all responses are always current",
+    "option_d": "Eliminate all network communication forever",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 144,
+    "topic": "API",
+    "question_text": "What is an ETag commonly used for?",
+    "option_a": "Storing a user's plaintext password",
+    "option_b": "Specifying a database table name",
+    "option_c": "Choosing the HTTP port",
+    "option_d": "Identifying a resource representation version for conditional requests",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 145,
+    "topic": "API",
+    "question_text": "Which status can a server return when a conditional GET finds the cached representation unchanged?",
+    "option_a": "201 Created",
+    "option_b": "304 Not Modified",
+    "option_c": "400 Bad Request",
+    "option_d": "500 Internal Server Error",
+    "correct_option": "B"
+  },
+  {
+    "question_id": 146,
+    "topic": "API",
+    "question_text": "What is a common purpose of API versioning?",
+    "option_a": "Managing changes to the API contract over time",
+    "option_b": "Guaranteeing that all old versions run forever",
+    "option_c": "Encrypting request URLs",
+    "option_d": "Replacing all error responses with success",
+    "correct_option": "A"
+  },
+  {
+    "question_id": 147,
+    "topic": "API",
+    "question_text": "Why must an API validate input on the server even if the frontend validates it?",
+    "option_a": "Frontend checks automatically create database constraints",
+    "option_b": "Only browsers can call an API",
+    "option_c": "Clients can bypass or modify frontend checks",
+    "option_d": "Server validation is needed only for GET requests",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 148,
+    "topic": "API",
+    "question_text": "What is the purpose of an OpenAPI description?",
+    "option_a": "Implementing a database engine",
+    "option_b": "Encrypting all source code",
+    "option_c": "Replacing every server implementation",
+    "option_d": "Documenting an HTTP API's operations and data structures in a machine-readable form",
+    "correct_option": "D"
+  },
+  {
+    "question_id": 149,
+    "topic": "API",
+    "question_text": "In OAuth 2.0, what is an access token used for?",
+    "option_a": "Necessarily revealing the user's password",
+    "option_b": "Guaranteeing that the holder is a human",
+    "option_c": "Accessing protected resources within granted authorization",
+    "option_d": "Defining the database's physical file format",
+    "correct_option": "C"
+  },
+  {
+    "question_id": 150,
+    "topic": "API",
+    "question_text": "What is a common characteristic of GraphQL queries?",
+    "option_a": "All queries must directly contain raw SQL",
+    "option_b": "Every operation must return the entire database",
+    "option_c": "Clients specify the fields they want in the response",
+    "option_d": "HTTP status codes are replaced by CSS selectors",
+    "correct_option": "C"
+  }
+]

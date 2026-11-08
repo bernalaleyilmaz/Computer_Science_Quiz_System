@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+<title>CSQuiz ER diagram — column connections</title>
+<desc>All five tables and all columns. Lines connect the actual referenced and referencing key rows. Two blue lines form one composite foreign key.</desc>
+<rect width="1800" height="1100" fill="#fff8fb"/>
+<g font-family="Segoe UI, Arial, sans-serif" fill="#382b37">
+<text x="50" y="48" font-size="30" font-weight="700">CSQuiz · ER diagram</text>
+<text x="50" y="82" font-size="18" fill="#76596c">5 tables · relationships connect key columns · parent 1 : child 0..N</text>
+<rect id="users" x="50" y="130" width="500" height="208" rx="12" fill="white" stroke="#d9adc3" stroke-width="1.5"/>
+<path d="M62 130 H538 Q550 130 550 142 V178 H50 V142 Q50 130 62 130" fill="#f3d9e6"/>
+<text x="70" y="163" font-size="23" font-weight="600">users</text>
+<text x="68" y="208" font-size="14" font-weight="600" fill="#9a4773">PK</text>
+<text x="158" y="208" font-size="18">user_id</text>
+<text x="532" y="208" text-anchor="end" font-size="15" fill="#76596c">INTEGER</text>
+<text x="68" y="242" font-size="14" font-weight="600" fill="#9a4773">UK</text>
+<text x="158" y="242" font-size="18">username</text>
+<text x="532" y="242" text-anchor="end" font-size="15" fill="#76596c">TEXT</text>
+<text x="68" y="276" font-size="14" font-weight="600" fill="#9a4773"></text>
+<text x="158" y="276" font-size="18">created_at</text>
+<text x="532" y="276" text-anchor="end" font-size="15" fill="#76596c">TEXT</text>
+<text x="158" y="310" font-size="18">password_hash</text>
+<text x="532" y="310" text-anchor="end" font-size="15" fill="#76596c">TEXT?</text>
+<rect id="sessions" x="650" y="130" width="500" height="276" rx="12" fill="white" stroke="#d9adc3" stroke-width="1.5"/>
+<path d="M662 130 H1138 Q1150 130 1150 142 V178 H650 V142 Q650 130 662 130" fill="#f3d9e6"/>
+<text x="670" y="163" font-size="23" font-weight="600">sessions</text>
+<text x="668" y="208" font-size="14" font-weight="600" fill="#9a4773">PK</text>
+<text x="758" y="208" font-size="18">session_id</text>
+<text x="1132" y="208" text-anchor="end" font-size="15" fill="#76596c">INTEGER</text>
+<text x="668" y="242" font-size="14" font-weight="600" fill="#9a4773"></text>
+<text x="758" y="242" font-size="18">title</text>
+<text x="1132" y="242" text-anchor="end" font-size="15" fill="#76596c">TEXT</text>
+<text x="668" y="276" font-size="14" font-weight="600" fill="#9a4773"></text>
+<text x="758" y="276" font-size="18">status</text>
+<text x="1132" y="276" text-anchor="end" font-size="15" fill="#76596c">TEXT</text>
+<text x="668" y="310" font-size="14" font-weight="600" fill="#9a4773"></text>
+<text x="758" y="310" font-size="18">started_at</text>
+<text x="1132" y="310" text-anchor="end" font-size="15" fill="#76596c">TEXT?</text>
+<text x="668" y="344" font-size="14" font-weight="600" fill="#9a4773"></text>
+<text x="758" y="344" font-size="18">ended_at</text>
+<text x="1132" y="344" text-anchor="end" font-size="15" fill="#76596c">TEXT?</text>
+<text x="668" y="378" font-size="14" font-weight="600" fill="#9a4773"></text>
+<text x="758" y="378" font-size="18">scheduled_start_at</text>
+<text x="1132" y="378" text-anchor="end" font-size="15" fill="#76596c">TEXT?</text>
+<rect id="questions" x="1250" y="130" width="500" height="344" rx="12" fill="white" stroke="#d9adc3" stroke-width="1.5"/>
+<path d="M1262 130 H1738 Q1750 130 1750 142 V178 H1250 V142 Q1250 130 1262 130" fill="#f3d9e6"/>
+<text x="1270" y="163" font-size="23" font-weight="600">questions</text>
+<text x="1268" y="208" font-size="14" font-weight="600" fill="#9a4773">PK</text>
+<text x="1358" y="208" font-size="18">question_id</text>
+<text x="1732" y="208" text-anchor="end" font-size="15" fill="#76596c">INTEGER</text>
+<text x="1268" y="242" font-size="14" font-weight="600" fill="#9a4773"></text>
+<text x="1358" y="242" font-size="18">topic</text>
+<text x="1732" y="242" text-anchor="end" font-size="15" fill="#76596c">TEXT</text>
+<text x="1268" y="276" font-size="14" font-weight="600" fill="#9a4773">UK</text>
+<text x="1358" y="276" font-size="18">question_text</text>
+<text x="1732" y="276" text-anchor="end" font-size="15" fill="#76596c">TEXT</text>
+<text x="1268" y="310" font-size="14" font-weight="600" fill="#9a4773"></text>
+<text x="1358" y="310" font-size="18">option_a</text>
+<text x="1732" y="310" text-anchor="end" font-size="15" fill="#76596c">TEXT</text>
+<text x="1268" y="344" font-size="14" font-weight="600" fill="#9a4773"></text>
+<text x="1358" y="344" font-size="18">option_b</text>
+<text x="1732" y="344" text-anchor="end" font-size="15" fill="#76596c">TEXT</text>
+<text x="1268" y="378" font-size="14" font-weight="600" fill="#9a4773"></text>
+<text x="1358" y="378" font-size="18">option_c</text>
+<text x="1732" y="378" text-anchor="end" font-size="15" fill="#76596c">TEXT</text>
+<text x="1268" y="412" font-size="14" font-weight="600" fill="#9a4773"></text>
+<text x="1358" y="412" font-size="18">option_d</text>
+<text x="1732" y="412" text-anchor="end" font-size="15" fill="#76596c">TEXT</text>
+<text x="1268" y="446" font-size="14" font-weight="600" fill="#9a4773"></text>
+<text x="1358" y="446" font-size="18">correct_option</text>
+<text x="1732" y="446" text-anchor="end" font-size="15" fill="#76596c">TEXT</text>
+<rect id="answers" x="50" y="650" width="500" height="275" rx="12" fill="white" stroke="#d9adc3" stroke-width="1.5"/>
+<path d="M62 650 H538 Q550 650 550 662 V698 H50 V662 Q50 650 62 650" fill="#f3d9e6"/>
+<text x="70" y="683" font-size="23" font-weight="600">answers</text>
+<text x="68" y="728" font-size="14" font-weight="600" fill="#9a4773">PK, FK</text>
+<text x="158" y="728" font-size="18">user_id</text>
+<text x="532" y="728" text-anchor="end" font-size="15" fill="#76596c">INTEGER</text>
+<text x="68" y="762" font-size="14" font-weight="600" fill="#9a4773">PK, FK</text>
+<text x="158" y="762" font-size="18">session_id</text>
+<text x="532" y="762" text-anchor="end" font-size="15" fill="#76596c">INTEGER</text>
+<text x="68" y="796" font-size="14" font-weight="600" fill="#9a4773">PK, FK</text>
+<text x="158" y="796" font-size="18">question_id</text>
+<text x="532" y="796" text-anchor="end" font-size="15" fill="#76596c">INTEGER</text>
+<text x="68" y="830" font-size="14" font-weight="600" fill="#9a4773"></text>
+<text x="158" y="830" font-size="18">selected_option</text>
+<text x="532" y="830" text-anchor="end" font-size="15" fill="#76596c">TEXT?</text>
+<text x="68" y="864" font-size="14" font-weight="600" fill="#9a4773"></text>
+<text x="158" y="864" font-size="18">answered_at</text>
+<text x="532" y="864" text-anchor="end" font-size="15" fill="#76596c">TEXT</text>
+<text x="70" y="898" font-size="16" fill="#76596c">PK (user_id, session_id, question_id)</text>
+<rect id="session_questions" x="1000" y="650" width="600" height="207" rx="12" fill="white" stroke="#d9adc3" stroke-width="1.5"/>
+<path d="M1012 650 H1588 Q1600 650 1600 662 V698 H1000 V662 Q1000 650 1012 650" fill="#f3d9e6"/>
+<text x="1020" y="683" font-size="23" font-weight="600">session_questions</text>
+<text x="1018" y="728" font-size="14" font-weight="600" fill="#9a4773">PK, FK</text>
+<text x="1108" y="728" font-size="18">session_id</text>
+<text x="1582" y="728" text-anchor="end" font-size="15" fill="#76596c">INTEGER</text>
+<text x="1018" y="762" font-size="14" font-weight="600" fill="#9a4773">PK, FK</text>
+<text x="1108" y="762" font-size="18">question_id</text>
+<text x="1582" y="762" text-anchor="end" font-size="15" fill="#76596c">INTEGER</text>
+<text x="1018" y="796" font-size="14" font-weight="600" fill="#9a4773"></text>
+<text x="1108" y="796" font-size="18">position</text>
+<text x="1582" y="796" text-anchor="end" font-size="15" fill="#76596c">INTEGER</text>
+<text x="1020" y="830" font-size="16" fill="#76596c">PK (session_id, question_id) · UK (session_id, position)</text>
+<polyline points="50,202 20,202 20,722 50,722" fill="none" stroke="#965578" stroke-width="2.5"/>
+<circle cx="50" cy="202" r="4" fill="#965578"/>
+<circle cx="50" cy="722" r="4" fill="#965578"/>
+<text x="65" y="605" font-size="16" fill="#965578">1 : 0..N</text>
+<polyline points="1150,202 1200,202 1200,555 1660,555 1660,722 1600,722" fill="none" stroke="#965578" stroke-width="2.5"/>
+<circle cx="1150" cy="202" r="4" fill="#965578"/>
+<circle cx="1600" cy="722" r="4" fill="#965578"/>
+<text x="1220" y="530" font-size="16" fill="#965578">session_id · 1 : 0..N</text>
+<polyline points="1750,202 1780,202 1780,756 1600,756" fill="none" stroke="#965578" stroke-width="2.5"/>
+<circle cx="1750" cy="202" r="4" fill="#965578"/>
+<circle cx="1600" cy="756" r="4" fill="#965578"/>
+<text x="1280" y="590" font-size="16" fill="#965578">question_id · 1 : 0..N</text>
+<polyline points="1000,722 850,722 850,756 550,756" fill="none" stroke="#4879a2" stroke-width="2.5"/>
+<circle cx="1000" cy="722" r="4" fill="#4879a2"/>
+<circle cx="550" cy="756" r="4" fill="#4879a2"/>
+<text x="590" y="700" font-size="16" fill="#4879a2">Composite FK · session_id</text>
+<polyline points="1000,756 920,756 920,790 550,790" fill="none" stroke="#4879a2" stroke-width="2.5"/>
+<circle cx="1000" cy="756" r="4" fill="#4879a2"/>
+<circle cx="550" cy="790" r="4" fill="#4879a2"/>
+<text x="590" y="830" font-size="16" fill="#4879a2">Composite FK · question_id</text>
+<text x="50" y="990" font-size="17">PK = primary key · FK = foreign key · UK = unique · ? = nullable; other columns are required.</text>
+<text x="50" y="1028" font-size="17" fill="#4879a2">The two blue lines represent ONE composite FK, with cardinality 1 : 0..N.</text>
+<text x="50" y="1066" font-size="17">answers(session_id, question_id) → session_questions(session_id, question_id)</text>
+</g></svg>

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CSQuiz · The curiosity club</title>
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ctext y='32' font-size='32'%3E🎀%3C/text%3E%3C/svg%3E"
+    >
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/live.css">
+
+    <script src="/app.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <a class="brand" href="/" aria-label="CSQuiz home">
+        <span class="brand-bow" aria-hidden="true">
+          <svg viewBox="0 0 48 32">
+            <path
+              d="M22 15Q4 -3 3 10Q0 26 22 19M26 15Q44 -3 45 10Q48 26 26 19"
+              fill="#e971a1"
+              stroke="#ae426f"
+              stroke-width="2"
+            />
+            <circle
+              cx="24"
+              cy="17"
+              r="6"
+              fill="#f5b2cf"
+              stroke="#ae426f"
+              stroke-width="2"
+            />
+          </svg>
+        </span>CS<span>Quiz</span>
+      </a>
+
+      <div class="header-right">
+        <span class="tiny-note">
+          a little learning, a little magic ♡
+        </span>
+
+        <button id="host-link" class="text-button">
+          Host corner
+        </button>
+        <button id="sign-out" class="text-button" type="button" hidden>Sign out</button>
+      </div>
+    </header>
+
+    <main>
+      <nav id="steps" aria-label="Quiz steps"></nav>
+
+      <div
+        id="notice"
+        role="status"
+        aria-live="polite"
+        hidden
+      ></div>
+
+      <section id="screen" aria-live="polite">
+        <div class="loading">Tying the finishing bow…</div>
+      </section>
+    </main>
+
+    <footer>
+      <span> <b>♡</b></span>
+      <span>AI · DATABASES · APIs</span>
+      <span>CSQuiz · Local classroom demo</span>
+    </footer>
+
+    <dialog
+      id="confirmation"
+      aria-labelledby="dialog-title"
+      aria-describedby="dialog-description"
+    >
+      <form method="dialog">
+        <div class="bow-label">🎀</div>
+
+        <h2 id="dialog-title"></h2>
+        <p id="dialog-description"></p>
+
+        <div class="dialog-actions">
+          <button class="button secondary" value="cancel">
+            Keep going
+          </button>
+
+          <button id="dialog-accept" class="button" value="accept">
+            Finish quiz
+          </button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="host-login" aria-labelledby="host-login-title">
+      <form id="host-login-form" class="entry-form">
+        <h2 id="host-login-title">Host access</h2>
+
+        <label for="host-password">
+          Enter the host password
+        </label>
+
+        <input
+          id="host-password"
+          type="password"
+          autocomplete="current-password"
+          required
+        >
+
+        <p
+          id="host-login-error"
+          class="micro"
+          role="alert"
+          hidden
+        ></p>
+
+        <div class="dialog-actions">
+          <button
+            id="host-login-cancel"
+            type="button"
+            class="button secondary"
+          >
+            Cancel
+          </button>
+
+          <button
+            id="host-login-submit"
+            type="submit"
+            class="button"
+          >
+            Enter host panel
+          </button>
+        </div>
+      </form>
+    </dialog>
+  </body>
+</html>
